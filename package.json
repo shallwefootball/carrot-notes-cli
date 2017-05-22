@@ -2,14 +2,16 @@
   "name": "carrot-notes-cli",
   "version": "0.0.1",
   "description": "prototype cli for carrot note",
-  "main": "index.js",
+  "main": "index",
+  "bin": {
+    "carrot": "index"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "amos <amos@shallwefootball.com>",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.9.0",
-    "inquirer": "^3.0.6"
+    "commander": "^2.9.0"
   }
 }

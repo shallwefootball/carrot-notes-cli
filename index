@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+const program = require('commander');
+const pgk = require('./package.json');
+
+program
+  .version(pgk.version)
+  .description('carrot notes cli');
+
+program
+  .command('add <hiragana> <korean>')
+  .action(function(hira, korean) {
+    console.log('hira "%s"', hira);
+    console.log('ko "%s"', korean);
+  });
+
+program.parse(process.argv);
+
+if (!program.args.length) {
+  console.log('hello! carrot notes 🥕');
+}
