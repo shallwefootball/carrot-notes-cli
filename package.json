@@ -8,6 +8,11 @@
   "author": "amos <amos@shallwefootball.com>",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "lowdb": "^0.16.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1"
   }
 }

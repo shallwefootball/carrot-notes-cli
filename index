@@ -1,38 +1,4 @@
 #!/usr/bin/env node
 
-const program = require('commander');
-const pgk = require('./package.json');
-
-program
-  .version(pgk.version)
-  .description('carrot notes cli');
-
-program
-  .command('add <hiragana> <explanation>')
-  .description('Add hiragana with explanation')
-  .action((hiragana, explanation) => {
-    console.log('hiragana "%s"', hiragana);
-    console.log('explanation "%s"', explanation);
-  });
-
-program
-  .command('kanji <kanji> <hiragana> <definition>')
-  .description('Add kanji with definition')
-  .action((kanji, hiragana, definition) => {
-    console.log('kanji "%s"', kanji);
-    console.log('hiragana "%s"', hiragana);
-    console.log('definition "%s"', definition);
-  });
-
-program
-  .command('list').alias('ls')
-  .action(() => {
-    console.log('list notes');
-  });
-
-program.parse(process.argv);
-
-if (!program.args.length) {
-  console.log('Carrot notes 🥕');
-  console.log('v' + pgk.version);
-}
+require('babel-register');
+require('./carrot');
