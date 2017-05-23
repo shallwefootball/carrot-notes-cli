@@ -1,7 +1,7 @@
 # Carrot Notes CLI
-Developer friendly appication for Japanesee voca note.
+Developer friendly CLI application for Japanese vocabulary note.
 
-#feature
+# feature
  - add
  - learning
 

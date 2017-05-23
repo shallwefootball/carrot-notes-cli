@@ -1,13 +1,9 @@
 {
   "name": "carrot-notes-cli",
   "version": "0.0.2",
-  "description": "prototype cli for carrot note",
-  "main": "index",
+  "description": "Developer friendly CLI application for Japanese vocabulary note.",
   "bin": {
     "carrot": "index"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "amos <amos@shallwefootball.com>",
   "license": "ISC",
