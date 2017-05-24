@@ -1,33 +1,15 @@
-# Carrot Notes CLI
+# Carrot Notes CLI 🥕
 Developer friendly CLI application for Japanese vocabulary note.
 
 # feature
- - add
- - learning
+ - add word (developing...)
+ - review random.
 
 # install
+`npm i -g carrot-notes`
 # usage
+`carrot --help`
 
-
-# Data Structure
-
-```
-{
-  _id: 0,
-  hira: "",
-  kangi: {
-    word: "",
-    hira: ""
-  }
-  kata: "",
-  ko: "",
-  reviews: [
-    all: false,
-    hira: false,
-    kangi: false,
-    kata: false,
-    ko: false,
-    date: '2016-01-01 20:00:00'
-  ]
-}
-```
+# todo
+- recursive review.
+- convert hiragana to kanji.
