@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 import program from 'commander';
+import inquirer from 'inquirer';
+import moment from 'moment';
 import pgk from './package.json';
-import {readAllHira} from './hiragana';
+import {readAllHira, randomReadOne} from './hiragana';
 
 program
   .version(pgk.version)
@@ -31,6 +33,22 @@ program
     readAllHira().map(hira => {
       console.log(`${hira}`);
     })
+  });
+
+program
+  .command('review').alias('re')
+  .action(() => {
+    const {hiragana} = randomReadOne();
+    const question = {
+      type: 'confirm',
+      name: 'awareness',
+      message: 'Do you remember a sentence below. \n ' +
+      `"${hiragana}"`
+    };
+    inquirer.prompt(question).then(function (answers) {
+      console.log(answers);
+      console.log(moment().toString());
+    });
   });
 
 program.parse(process.argv);
