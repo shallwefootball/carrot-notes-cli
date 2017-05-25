@@ -4,18 +4,21 @@ import program from 'commander';
 import inquirer from 'inquirer';
 import moment from 'moment';
 import pgk from './package.json';
-import {readAllHira, randomReadOne} from './hiragana';
+import {readAllHira, randomReadOne, write} from './hiragana';
 
 program
   .version(pgk.version)
   .description('carrot notes cli');
 
 program
-  .command('add <hiragana> <explanation>')
-  .description('Add hiragana with explanation')
-  .action((hiragana, explanation) => {
-    console.log('hiragana "%s"', hiragana);
-    console.log('explanation "%s"', explanation);
+  .command('add <hiragana> <interpretation>')
+  .description('Add hiragana with interpretation')
+  .action((hiragana, interpretation) => {
+    write({
+      hiragana,
+      interpretation,
+      created: moment().toString()
+    });
   });
 
 program
