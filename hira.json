@@ -1,24 +1,26 @@
-[
-  {
-    "hiragana": "わたしはにほんごのべんきょうをはじめたの。",
-    "interpretation": "나는 일본어의 공부를 시작해.",
-    "reviews": [
-      {
-        "date": "2017-05-23 23:46:00",
-        "interpretation": false,
-        "kanji": false
-      }
-    ]
-  },
-  {
-    "hiragana": "わたしはできてるよ。",
-    "interpretation": "나는 할 수 있어.",
-    "reviews": [
-      {
-        "date": "2017-05-24 00:01:00",
-        "interpretation": false,
-        "kanji": false
-      }
-    ]
-  }
-]
+{
+  "hira": [
+    {
+      "hiragana": "わたしはにほんごのべんきょうをはじめたの。",
+      "interpretation": "나는 일본어의 공부를 시작해.",
+      "created": "Thu May 23 2017 10:20:59 GMT+0900",
+      "reviews": [
+        {
+          "date": "2017-05-23 23:46:00",
+          "awareness": false
+        }
+      ]
+    },
+    {
+      "hiragana": "わたしはできてるよ。",
+      "interpretation": "나는 할 수 있어.",
+      "created": "Thu May 24 2017 10:20:59 GMT+0900",
+      "reviews": [
+        {
+          "date": "2017-05-24 00:01:00",
+          "awareness": false
+        }
+      ]
+    }
+  ]
+}
