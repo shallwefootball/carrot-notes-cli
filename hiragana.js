@@ -4,7 +4,7 @@ import random from 'lodash/random';
 const hiraData = lowdb('./hira.json', {storage: fileAsync});
 
 export const read = () => {
-  return hiraData.getState();
+  return hiraData.get('hira').value();
 };
 
 export const readAllHira = () => {
