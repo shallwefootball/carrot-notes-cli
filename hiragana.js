@@ -2,7 +2,7 @@ import lowdb from 'lowdb';
 import moment from 'moment';
 import fileAsync from 'lowdb/lib/storages/file-async';
 import random from 'lodash/random';
-const hiraData = lowdb('./hira.json', {storage: fileAsync});
+const hiraData = lowdb('./data/hira.json', {storage: fileAsync});
 
 export const read = () => {
   const db = hiraData.get('hira');
