@@ -8,7 +8,7 @@ Developer friendly CLI application for Japanese sentence note.
  - review sentence in hiragana by random.
 
 # install
-`$ npm i -g carrot-notes`
+`$ npm i -g carrot-notes-cli`
 # usage
 `$ carrot --help`
 
