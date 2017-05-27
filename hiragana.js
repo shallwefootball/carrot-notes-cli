@@ -1,22 +1,29 @@
 import lowdb from 'lowdb';
+import moment from 'moment';
 import fileAsync from 'lowdb/lib/storages/file-async';
 import random from 'lodash/random';
 const hiraData = lowdb('./hira.json', {storage: fileAsync});
 
 export const read = () => {
-  return hiraData.get('hira').value();
+  const db = hiraData.get('hira');
+  return {
+    db,
+    values: db.value()
+  };
 };
 
 export const readAllHira = () => {
-  return read().map(({hiragana}) => {
+  const {values} = read();
+  return values.map(({hiragana}) => {
     return hiragana
   });
 };
 
 export const randomReadOne = () => {
-  const lastIndex = read().length;
+  const {db, values} = read();
+  const lastIndex = values.length;
   const randomIndex = random(lastIndex - 1);
-  return read()[randomIndex];
+  return {db, value: values[randomIndex]}
 };
 
 export const write = argObj => {
@@ -27,4 +34,16 @@ export const write = argObj => {
     .then(() => {
       console.log('added word 💽');
     });
+};
+
+export const review = (db, value, {awareness}) => {
+  const result = db.find(value);
+  const reviewed = result.value().reviews
+    .push({
+      data: moment().toString(),
+      awareness
+    });
+  result
+    .assign(reviewed)
+    .write();
 };

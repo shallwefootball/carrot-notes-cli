@@ -4,7 +4,7 @@ import program from 'commander';
 import inquirer from 'inquirer';
 import moment from 'moment';
 import pgk from './package.json';
-import {readAllHira, randomReadOne, write} from './hiragana';
+import {readAllHira, randomReadOne, write, review} from './hiragana';
 
 program
   .version(pgk.version)
@@ -17,7 +17,8 @@ program
     write({
       hiragana,
       interpretation,
-      created: moment().toString()
+      created: moment().toString(),
+      reviews: []
     });
   });
 
@@ -41,17 +42,17 @@ program
 program
   .command('review').alias('re')
   .action(() => {
-    const {hiragana} = randomReadOne();
+    const {db, value} = randomReadOne();
     const question = {
       type: 'confirm',
       name: 'awareness',
       message: 'Do you remember a sentence below. \n ' +
-      `"${hiragana}"`
+      `"${value.hiragana}"`
     };
-    inquirer.prompt(question).then(function (answers) {
-      console.log(answers);
-      console.log(moment().toString());
-    });
+    inquirer.prompt(question)
+      .then(awareness => {
+        review(db, value, awareness);
+      });
   });
 
 program.parse(process.argv);

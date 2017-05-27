@@ -25,7 +25,13 @@
     {
       "hiragana": "きょうもおつかれさま。",
       "interpretation": "오늘도 수고하셨습니다.",
-      "created": "Fri May 26 2017 21:43:59 GMT+0900"
+      "created": "Fri May 26 2017 21:43:59 GMT+0900",
+      "reviews": [
+        {
+          "data": "Fri May 26 2017 22:46:43 GMT+0900",
+          "awareness": true
+        }
+      ]
     }
   ]
 }
