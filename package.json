@@ -12,9 +12,7 @@
     "inquirer": "^3.0.6",
     "lodash": "^4.17.4",
     "lowdb": "^0.16.2",
-    "moment": "^2.18.1"
-  },
-  "devDependencies": {
+    "moment": "^2.18.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.24.1"
   }
