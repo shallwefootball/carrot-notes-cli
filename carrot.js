@@ -1,8 +1,10 @@
-import program from 'commander';
-import inquirer from 'inquirer';
-import moment from 'moment';
-import pgk from './package.json';
-import {readAllHira, randomReadOne, write, review} from './hiragana';
+#!/usr/bin/env node
+
+const program = require('commander');
+const inquirer = require('inquirer');
+const moment = require('moment');
+const pgk = require('./package.json');
+const {readAllHira, randomReadOne, write, review} = require('./hiragana');
 
 program
   .version(pgk.version)
