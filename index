@@ -14,11 +14,14 @@ program
   .command('add <hiragana> <interpretation>')
   .description('Add hiragana with interpretation')
   .action((hiragana, interpretation) => {
-    write({
+    return write({
       hiragana,
       interpretation,
       created: moment().toString(),
       reviews: []
+    })
+    .then(() => {
+      console.log('\n [+]  added word 💿');
     });
   });
 
@@ -35,7 +38,7 @@ program
   .command('list').alias('ls')
   .action(() => {
     readAllHira().map(hira => {
-      console.log(`${hira}`);
+      console.log(` - ${hira}`);
     })
   });
 
@@ -58,6 +61,7 @@ program
 program.parse(process.argv);
 
 if (!program.args.length) {
-  console.log('Carrot notes 🥕');
-  console.log('v' + pgk.version);
+  console.log('\n');
+  console.log('   Carrot notes 🥕');
+  console.log('   v' + pgk.version);
 }

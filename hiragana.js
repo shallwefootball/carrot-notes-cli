@@ -29,13 +29,10 @@ const randomReadOne = () => {
 };
 
 const write = argObj => {
-  hiraData
+  return hiraData
     .get('hira')
     .push(argObj)
     .write()
-    .then(() => {
-      console.log('added word 💽');
-    });
 };
 
 const review = (db, value, {awareness}) => {
