@@ -1,6 +1,6 @@
 {
   "name": "carrot-notes-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Developer friendly CLI application for Japanese vocabulary note.",
   "bin": {
     "carrot": "index"
