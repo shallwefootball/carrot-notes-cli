@@ -1,8 +1,10 @@
+const path = require('path');
 const lowdb = require('lowdb');
 const moment = require('moment');
 const fileAsync = require('lowdb/lib/storages/file-async');
 const random = require('lodash/random');
-const hiraData = lowdb('./data/hira.json', {storage: fileAsync});
+const dataPath = path.resolve(path.join(__dirname, './data/hira.json'));
+const hiraData = lowdb(dataPath, {storage: fileAsync});
 
 const read = () => {
   const db = hiraData.get('hira');
