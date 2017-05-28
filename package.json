@@ -8,6 +8,7 @@
   "author": "amos <amos@shallwefootball.com>",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
     "inquirer": "^3.0.6",
     "lodash": "^4.17.4",

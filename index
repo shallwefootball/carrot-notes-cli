@@ -3,6 +3,7 @@
 const program = require('commander');
 const inquirer = require('inquirer');
 const moment = require('moment');
+const colors = require('colors');
 const pgk = require('./package.json');
 const {readAllHira, randomReadOne, write, review} = require('./hiragana');
 
@@ -21,7 +22,7 @@ program
       reviews: []
     })
     .then(() => {
-      console.log('\n [+]  added word 💿');
+      console.log(`\n ${colors.green('[+]')}  "${hiragana}" added done. 💿`);
     });
   });
 
