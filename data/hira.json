@@ -23,7 +23,7 @@
       ]
     },
     {
-      "hiragana": "きょうもおつかれさま。",
+      "hiragana": "きょうもおつかれさまでした。",
       "interpretation": "오늘도 수고하셨습니다.",
       "created": "Fri May 26 2017 21:43:59 GMT+0900",
       "reviews": [
@@ -32,6 +32,204 @@
           "awareness": true
         }
       ]
+    },
+    {
+      "hiragana": "~は",
+      "interpretation": "은,는 발음은 조사일때 와로 한다.",
+      "created": "Sun May 28 2017 17:26:50 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "たかいです。",
+      "interpretation": "비쌉니다.",
+      "created": "Sun May 28 2017 17:29:22 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "~が",
+      "interpretation": "~이, ~가(조사)",
+      "created": "Sun May 28 2017 17:32:05 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "よるこぶ。",
+      "interpretation": "기뻐하다.",
+      "created": "Sun May 28 2017 17:36:48 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "きた。",
+      "interpretation": "왔다.",
+      "created": "Sun May 28 2017 17:44:19 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "〜には",
+      "interpretation": "~에는 (조사)",
+      "created": "Sun May 28 2017 17:47:36 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "たくさんある。",
+      "interpretation": "많이 있다.",
+      "created": "Sun May 28 2017 17:50:09 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "~で",
+      "interpretation": "~에서, ~으로, ~때문에",
+      "created": "Sun May 28 2017 20:30:06 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "がっこうでべんきょうする。",
+      "interpretation": "학교에서 공부하다.",
+      "created": "Sun May 28 2017 20:42:43 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "けいたいででんわをする。",
+      "interpretation": "핸드폰으로 전화를 하다.",
+      "created": "Sun May 28 2017 20:47:31 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "かぜでがっこうをやすみました。",
+      "interpretation": "감기로(때문에) 학교를 쉬었습니다.",
+      "created": "Sun May 28 2017 20:51:57 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "~に",
+      "interpretation": "~에, ~에게 (보편적)",
+      "created": "Sun May 28 2017 20:53:36 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "でんわをする。",
+      "interpretation": "전화를 하다.",
+      "created": "Sun May 28 2017 20:56:46 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "きいてみる。",
+      "interpretation": "물어보다.",
+      "created": "Sun May 28 2017 21:02:33 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "きいてみた。",
+      "interpretation": "물어봤다.",
+      "created": "Sun May 28 2017 21:04:11 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "~へ",
+      "interpretation": "~에, ~에게 (한정적, 동작의 방향을 강조할때, 편지쓸때)",
+      "created": "Sun May 28 2017 21:06:46 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "あいする＿＿へ。",
+      "interpretation": "사랑하는__에게",
+      "created": "Sun May 28 2017 21:10:32 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "そうなんっす!",
+      "interpretation": "그렇습돠!",
+      "created": "Sun May 28 2017 21:22:46 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "そうなの？",
+      "interpretation": "정말/진짜?",
+      "created": "Sun May 28 2017 21:26:44 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "いぬのさんぽをする。",
+      "interpretation": "개의 산책을 하다.",
+      "created": "Sun May 28 2017 21:32:09 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "~を",
+      "interpretation": "~을,를",
+      "created": "Sun May 28 2017 21:38:15 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "いぬをあらう。",
+      "interpretation": "개를 씻기다(씻다)",
+      "created": "Sun May 28 2017 21:39:59 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "さらをあらう。",
+      "interpretation": "그릇을 씻다.",
+      "created": "Sun May 28 2017 21:46:22 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "はみがきをする。",
+      "interpretation": "양치질을 하다.",
+      "created": "Sun May 28 2017 21:49:13 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "~の",
+      "interpretation": "~의 것",
+      "created": "Sun May 28 2017 22:12:56 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "わたしの。",
+      "interpretation": "나의 것.",
+      "created": "Sun May 28 2017 22:13:58 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "わたしのめがねです。",
+      "interpretation": "나의 안경이에요.",
+      "created": "Sun May 28 2017 22:15:58 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "~も",
+      "interpretation": "~도",
+      "created": "Sun May 28 2017 22:16:55 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "わたしもいく。",
+      "interpretation": "나도 가, 갈래",
+      "created": "Sun May 28 2017 22:17:38 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "わたしもたべる。",
+      "interpretation": "나도 먹어, 먹을래",
+      "created": "Sun May 28 2017 22:18:29 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "~と",
+      "interpretation": "~(이)랑, ~와,과",
+      "created": "Sun May 28 2017 22:19:19 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "いぬとさんぽをする。",
+      "interpretation": "개랑 산책을 해요.",
+      "created": "Sun May 28 2017 22:20:48 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "ともだちとあそぶ。",
+      "interpretation": "친구랑 놀다.",
+      "created": "Sun May 28 2017 22:21:58 GMT+0900",
+      "reviews": []
     }
   ]
 }
