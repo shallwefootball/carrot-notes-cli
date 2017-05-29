@@ -3,7 +3,6 @@
 const program = require('commander');
 const inquirer = require('inquirer');
 const moment = require('moment');
-const colors = require('colors');
 const pgk = require('./package.json');
 const {readAllHira, randomReadOne, write, review} = require('./hiragana');
 
@@ -22,7 +21,7 @@ program
       reviews: []
     })
     .then(() => {
-      console.log(`\n ${colors.green('[+]')}  "${hiragana}" added done. 💿`);
+      console.log(`\n 💿  - "${hiragana}" added done.`);
     });
   });
 
@@ -54,9 +53,17 @@ program
       `"${value.hiragana}"`
     };
     inquirer.prompt(question)
-      .then(awareness => {
-        review(db, value, awareness);
-      });
+      .then(({awareness}) => {
+        return review(db, value, awareness)
+          .then(({interpretation}) => {
+            if (awareness) {
+              console.log('\n 👍  great!!');
+            }else {
+              console.log('\n  ✋  cheer up!!!!');
+            }
+            console.log(`\n 📕  - ${interpretation}`);
+          })
+      })
   });
 
 program.parse(process.argv);

@@ -35,14 +35,14 @@ const write = argObj => {
     .write()
 };
 
-const review = (db, value, {awareness}) => {
+const review = (db, value, awareness) => {
   const result = db.find(value);
   const reviewed = result.value().reviews
     .push({
       data: moment().toString(),
       awareness
     });
-  result
+  return result
     .assign(reviewed)
     .write();
 };
