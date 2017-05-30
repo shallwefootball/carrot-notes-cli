@@ -55,7 +55,12 @@
       "hiragana": "よるこぶ。",
       "interpretation": "기뻐하다.",
       "created": "Sun May 28 2017 17:36:48 GMT+0900",
-      "reviews": []
+      "reviews": [
+        {
+          "data": "Tue May 30 2017 10:12:07 GMT+0900",
+          "awareness": false
+        }
+      ]
     },
     {
       "hiragana": "きた。",
@@ -71,6 +76,10 @@
         {
           "data": "Mon May 29 2017 09:27:02 GMT+0900",
           "awareness": false
+        },
+        {
+          "data": "Tue May 30 2017 10:08:11 GMT+0900",
+          "awareness": false
         }
       ]
     },
@@ -84,7 +93,12 @@
       "hiragana": "~で",
       "interpretation": "~에서, ~으로, ~때문에",
       "created": "Sun May 28 2017 20:30:06 GMT+0900",
-      "reviews": []
+      "reviews": [
+        {
+          "data": "Tue May 30 2017 10:10:10 GMT+0900",
+          "awareness": false
+        }
+      ]
     },
     {
       "hiragana": "がっこうでべんきょうする。",
@@ -156,6 +170,10 @@
       "reviews": [
         {
           "data": "Mon May 29 2017 09:25:50 GMT+0900",
+          "awareness": true
+        },
+        {
+          "data": "Tue May 30 2017 10:09:30 GMT+0900",
           "awareness": true
         }
       ]

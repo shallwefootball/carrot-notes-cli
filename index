@@ -4,7 +4,8 @@ const program = require('commander');
 const inquirer = require('inquirer');
 const moment = require('moment');
 const pgk = require('./package.json');
-const {readAllHira, randomReadOne, write, review} = require('./hiragana');
+const {readAllHira, write} = require('./hiragana');
+const {rememberSentence} = require('./questions');
 
 program
   .version(pgk.version)
@@ -45,25 +46,7 @@ program
 program
   .command('review').alias('re')
   .action(() => {
-    const {db, value} = randomReadOne();
-    const question = {
-      type: 'confirm',
-      name: 'awareness',
-      message: 'Do you remember a sentence below. \n ' +
-      `"${value.hiragana}"`
-    };
-    inquirer.prompt(question)
-      .then(({awareness}) => {
-        return review(db, value, awareness)
-          .then(({interpretation}) => {
-            if (awareness) {
-              console.log('\n 👍  great!!');
-            }else {
-              console.log('\n  ✋  cheer up!!!!');
-            }
-            console.log(`\n 📕  - ${interpretation}`);
-          })
-      })
+    return rememberSentence();
   });
 
 program.parse(process.argv);
