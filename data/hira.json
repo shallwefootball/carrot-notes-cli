@@ -291,12 +291,83 @@
       "hiragana": "いぬとさんぽをする。",
       "interpretation": "개랑 산책을 해요.",
       "created": "Sun May 28 2017 22:20:48 GMT+0900",
-      "reviews": []
+      "reviews": [
+        {
+          "data": "Thu Jun 01 2017 23:55:08 GMT+0900",
+          "awareness": false
+        }
+      ]
     },
     {
       "hiragana": "ともだちとあそぶ。",
       "interpretation": "친구랑 놀다.",
       "created": "Sun May 28 2017 22:21:58 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "よめる。",
+      "interpretation": "읽을 수 있다.",
+      "created": "Thu Jun 01 2017 23:56:33 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "いける。",
+      "interpretation": "갈 수 있다.",
+      "created": "Thu Jun 01 2017 23:59:36 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "たべられる。",
+      "interpretation": "먹을 수 있다. ",
+      "created": "Fri Jun 02 2017 00:00:14 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "できる。",
+      "interpretation": "할 수 있다.",
+      "created": "Fri Jun 02 2017 00:00:40 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "えいごができる。",
+      "interpretation": "영어를 할 수 있다.",
+      "created": "Fri Jun 02 2017 00:02:23 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "すきだ。",
+      "interpretation": "좋아하다",
+      "created": "Fri Jun 02 2017 00:07:07 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "きらいだ。",
+      "interpretation": "싫어하다",
+      "created": "Fri Jun 02 2017 00:07:54 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "じょうずだ。",
+      "interpretation": "잘하다. (객관적",
+      "created": "Fri Jun 02 2017 00:08:48 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "へただ。",
+      "interpretation": "못하다.",
+      "created": "Fri Jun 02 2017 00:09:40 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "にがてだ。",
+      "interpretation": "못하다, 서투르다.",
+      "created": "Fri Jun 02 2017 00:10:23 GMT+0900",
+      "reviews": []
+    },
+    {
+      "hiragana": "とくいだ。",
+      "interpretation": "잘하다. (주관적, 특기)",
+      "created": "Fri Jun 02 2017 00:10:58 GMT+0900",
       "reviews": []
     }
   ]
