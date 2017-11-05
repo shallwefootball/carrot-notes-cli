@@ -5,6 +5,7 @@
   "bin": {
     "carrot": "index"
   },
+  "preferGlobal": true,
   "author": "amos <amos@shallwefootball.com>",
   "license": "ISC",
   "dependencies": {
